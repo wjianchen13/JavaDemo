@@ -25,20 +25,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Java反射常规测试"
+            android:text="test1"
             android:onClick="onTest1"
             android:textAllCaps="false"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btn_test2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Java反射实例化子library的类"
-            android:onClick="onTest2"
-            android:textAllCaps="false" />
 
     </LinearLayout>
 </ScrollView>

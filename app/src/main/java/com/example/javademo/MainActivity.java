@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.javademo.reflect.ReflectActivity;
+import com.example.javademo.reflect.ReflectMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
