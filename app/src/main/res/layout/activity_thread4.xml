@@ -11,24 +11,33 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:gravity="center"
             android:textColor="#000000"
             android:textSize="13sp"
-            android:text="反射"
-            android:onClick="onReflect"/>
+            android:text="ReentrantLock" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#000000"
-            android:textSize="13sp"
-            android:text="线程同步"
-            android:onClick="onThread"/>
+            android:layout_marginTop="10dp"
+            android:text="测试1"
+            android:onClick="onTest1"
+            android:textAllCaps="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <Button
+            android:id="@+id/btn_test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="测试2"
+            android:onClick="onTest2"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 </ScrollView>

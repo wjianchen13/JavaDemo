@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.javademo.reflect.ReflectActivity;
 import com.example.javademo.reflect.ReflectMainActivity;
+import com.example.javademo.thread.ThreadActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +24,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onReflect(View v) {
         startActivity(new Intent(this, ReflectActivity.class));
+    }
+
+    /**
+     * 线程同步
+     * @param v
+     */
+    public void onThread(View v) {
+        startActivity(new Intent(this, ThreadActivity.class));
     }
 }

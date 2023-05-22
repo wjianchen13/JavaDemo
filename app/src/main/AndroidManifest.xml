@@ -20,6 +20,11 @@
 
         <activity android:name="com.example.javademo.reflect.ReflectActivity" />
         <activity android:name="com.example.javademo.reflect.ReflectMainActivity" />
+        <activity android:name="com.example.javademo.thread.ThreadActivity" />
+        <activity android:name="com.example.javademo.thread.ThreadActivity1" />
+        <activity android:name="com.example.javademo.thread.ThreadActivity2" />
+        <activity android:name="com.example.javademo.thread.ThreadActivity3" />
+        <activity android:name="com.example.javademo.thread.ThreadActivity4" />
 
 
     </application>
